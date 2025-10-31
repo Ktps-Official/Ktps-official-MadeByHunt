@@ -1,0 +1,327 @@
+#!/bin/bash
+
+# Tips Growtopia 2025 Menu for Termux
+# Created by Ktps
+
+# Clear screen
+clear
+
+# Function to display ASCII art
+display_art() {
+    echo -e "\033[1;36m"
+    echo "    ╔═══════════════════════════════════╗"
+    echo "    ║        TIPS GROWTOPIA 2025        ║"
+    echo "    ║         Created by Ktps          ║"
+    echo "    ╚═══════════════════════════════════╝"
+    echo -e "\033[0m"
+    
+    # Growtopia Farmer ASCII Art
+    echo -e "\033[1;32m"
+    echo "    🧑‍🌾 GROWTOPIA FARMER:"
+    echo "       ___"
+    echo "      /   \\"
+    echo "     /_____\\"
+    echo "    (  ' '  )"
+    echo "     |  ^  |"
+    echo "     | '-' |"
+    echo "     \\_____/"
+    echo "     /     \\"
+    echo "    /       \\"
+    echo "   🌱 🌿 🌲 💎"
+    echo -e "\033[0m"
+    
+    # Noob Player ASCII Art
+    echo -e "\033[1;31m"
+    echo "    🎮 NOOB PLAYER:"
+    echo "       _______"
+    echo "      /       \\"
+    echo "     /  X   X  \\"
+    echo "    |     🔨     |"
+    echo "    |   💔     |"
+    echo "     \\  \\___/  /"
+    echo "      \\_______/"
+    echo "        |    |"
+    echo "       💸 ❌ 📉"
+    echo -e "\033[0m"
+}
+
+# Function to display header
+header() {
+    clear
+    display_art
+    echo
+    echo -e "\033[1;36m[ KTPS ] [ TERMUX ] [ GROWTOPIA ]\033[0m"
+    echo
+}
+
+# Function to display main menu
+main_menu() {
+    echo -e "\033[1;33m[ MAIN MENU ]\033[0m"
+    echo -e "\033[1;37m[1] Tips Profit Growtopia"
+    echo "[2] WA Owner"
+    echo "[3] Find Item"
+    echo "[4] About"
+    echo "[5] Uninstall"
+    echo "[0] Exit\033[0m"
+    echo
+}
+
+# Function to display footer
+footer() {
+    echo -e "\033[1;30mESC / - HOME ↑ END PGUP"
+    echo "= CTRL ALT -- ↓ -- PGDN\033[0m"
+    echo
+}
+
+# Function to show Growtopia profit tips
+show_growtopia_tips() {
+    clear
+    echo -e "\033[1;32m"
+    echo "    🧑‍🌾 PRO FARMER:"
+    echo "       ___"
+    echo "      /   \\"
+    echo "     /_____\\"
+    echo "    (  ^ ^  )  -> Sabar & Rajin"
+    echo "     |  O  |"
+    echo "     | '-' |"
+    echo "     \\_____/"
+    echo "     /     \\"
+    echo "    /       \\"
+    echo "   ⚡ 🌿 💎 🎯"
+    echo -e "\033[0m"
+    
+    echo -e "\033[1;33m[ TIPS PROFIT GROWTOPIA KTPS ]\033[0m"
+    echo -e "\033[1;37m"
+    echo "[1] 🌱 Farming Strategy"
+    echo "[2] 💰 Profit Trading"
+    echo "[3] 🎯 World Management"
+    echo "[4] ⚡ Efficient Leveling"
+    echo "[5] 🛡️  Avoid Scammers"
+    echo "[6] 📈 Market Analysis"
+    echo "[7] 🎁 Event Farming"
+    echo "[8] 🔧 Tools & Automation"
+    echo "[9] 👥 Team Play"
+    echo "[10] 📚 Advanced Tips"
+    echo "[11] 🔙 Back to Main Menu"
+    echo -e "\033[0m"
+    footer
+    read -p "[*] Choose : " tip_choice
+    
+    case $tip_choice in
+        1) 
+            clear
+            echo -e "\033[1;32m"
+            echo "    🌱 FARMING STRATEGY:"
+            echo "       ___"
+            echo "      /   \\"
+            echo "     /_____\\"
+            echo "    (  • •  )  -> Plant Seeds"
+            echo "     |  O  |"
+            echo "     | '-' |"
+            echo "     \\_____/"
+            echo "     /     \\"
+            echo "    /       \\"
+            echo "   🌱 💧 ⚡ 🕒"
+            echo -e "\033[0m"
+            echo -e "\033[1;33m[ TIPS 1: FARMING STRATEGY ]\033[0m"
+            echo -e "\033[1;37m"
+            echo "• 🌿 Pilih seed yang profit tinggi"
+            echo "• ⏰ Optimalkan waktu grow"
+            echo "• 💧 Gunakan fertilizer tepat waktu"
+            echo "• 📊 Rotasi tanaman yang benar"
+            echo "• 🎯 Fokus pada high-demand items"
+            echo -e "\033[0m"
+            read -p "Press enter to continue..."
+            show_growtopia_tips
+            ;;
+        2)
+            clear
+            echo -e "\033[1;31m"
+            echo "    💰 TRADING MISTAKES:"
+            echo "       _______"
+            echo "      /       \\"
+            echo "     /  💀 💀  \\"
+            echo "    |    ❌     |  -> Bad Trade"
+            echo "    |   💔     |"
+            echo "     \\  \\___/  /"
+            echo "      \\_______/"
+            echo "        |    |"
+            echo "       💸 📉 ❌"
+            echo -e "\033[0m"
+            echo -e "\033[1;33m[ TIPS 2: PROFIT TRADING ]\033[0m"
+            echo -e "\033[1;37m"
+            echo "• 💎 Know item values"
+            echo "• 📈 Buy low, sell high"
+            echo "• 🕒 Trade during peak hours"
+            echo "• 🚫 Avoid impulse trading"
+            echo "• 📋 Keep trade records"
+            echo -e "\033[0m"
+            read -p "Press enter to continue..."
+            show_growtopia_tips
+            ;;
+        3)
+            clear
+            echo -e "\033[1;32m"
+            echo "    🎯 WORLD MANAGEMENT:"
+            echo "       ___"
+            echo "      /   \\"
+            echo "     /_____\\"
+            echo "    (  ^ ^  )  -> Organize World"
+            echo "     |  O  |"
+            echo "     | '-' |"
+            echo "     \\_____/"
+            echo "     /|   |\\"
+            echo "    / |   | \\"
+            echo "   🌍 🏗️ 📊 ⚡"
+            echo -e "\033[0m"
+            echo -e "\033[1;33m[ TIPS 3: WORLD MANAGEMENT ]\033[0m"
+            echo -e "\033[1;37m"
+            echo "• 🏗️ Design efficient farm layout"
+            echo "• 🔒 Secure your world properly"
+            echo "• 📊 Optimize block placement"
+            echo "• ⚡ Use mass-placement tools"
+            echo "• 🌟 Create attractive vendor areas"
+            echo -e "\033[0m"
+            read -p "Press enter to continue..."
+            show_growtopia_tips
+            ;;
+        4)
+            clear
+            echo -e "\033[1;33m[ TIPS 4: EFFICIENT LEVELING ]\033[0m"
+            echo -e "\033[1;37m"
+            echo "• ⚡ Focus on XP-rich activities"
+            echo "• 🎯 Complete daily quests"
+            echo "• 🌱 Farm high-XP plants"
+            echo "• 👥 Join XP parties"
+            echo "• 📈 Balance profit and XP gain"
+            echo -e "\033[0m"
+            read -p "Press enter to continue..."
+            show_growtopia_tips
+            ;;
+        5)
+            clear
+            echo -e "\033[1;33m[ TIPS 5: AVOID SCAMMERS ]\033[0m"
+            echo -e "\033[1;37m"
+            echo "• 🚫 Never trust too-good deals"
+            echo "• 🔒 Use middleman for big trades"
+            echo "• 📸 Screenshot all trades"
+            echo "• 🎯 Verify item values"
+            echo "• 👀 Watch for common scam methods"
+            echo -e "\033[0m"
+            read -p "Press enter to continue..."
+            show_growtopia_tips
+            ;;
+        11) main_loop ;;
+        *) echo "Invalid choice!"; sleep 2; show_growtopia_tips ;;
+    esac
+}
+
+# Function for WA Owner
+wa_owner() {
+    clear
+    header
+    echo -e "\033[1;33m[ WA OWNER ]\033[0m"
+    echo -e "\033[1;37m"
+    echo "📞 Contact Owner Ktps:"
+    echo "• WhatsApp: +62 XXX-XXXX-XXXX"
+    echo "• Telegram: @ktpsgrowtopia"
+    echo "• Growtopia IGN: Ktps"
+    echo "• Email: ktps@growtopia.com"
+    echo -e "\033[0m"
+    footer
+    read -p "Press enter to return to main menu..."
+}
+
+# Function for Find Item
+find_item() {
+    clear
+    header
+    echo -e "\033[1;33m[ FIND ITEM ]\033[0m"
+    echo -e "\033[1;37m"
+    echo "🔍 Search Growtopia Items:"
+    echo "[1] Search Block Prices"
+    echo "[2] Search Seed Values"
+    echo "[3] Search Item Rarity"
+    echo "[4] Search Profit Calculator"
+    echo "[5] Back to Main Menu"
+    echo -e "\033[0m"
+    footer
+    read -p "[*] Choose : " find_choice
+    # Add functionality here
+}
+
+# Function for About
+about_menu() {
+    clear
+    header
+    echo -e "\033[1;33m[ ABOUT KTPS ]\033[0m"
+    echo -e "\033[1;37m"
+    echo "Growtopia Tips & Strategies 2025"
+    echo "Created by: Ktps"
+    echo "Version: 4.0"
+    echo "Platform: Termux"
+    echo ""
+    echo "Features:"
+    echo "• Farming Strategies"
+    echo "• Trading Guides"
+    echo "• Profit Calculators"
+    echo "• Market Analysis"
+    echo "• Scam Prevention"
+    echo -e "\033[0m"
+    footer
+    read -p "Press enter to return to main menu..."
+}
+
+# Function for Uninstall
+uninstall_menu() {
+    clear
+    header
+    echo -e "\033[1;33m[ UNINSTALL ]\033[0m"
+    echo -e "\033[1;37m"
+    echo "⚠️  Are you sure want to uninstall?"
+    echo "[1] Yes, uninstall"
+    echo "[2] No, back to menu"
+    echo -e "\033[0m"
+    footer
+    read -p "[*] Choose : " uninstall_choice
+    case $uninstall_choice in
+        1) 
+            echo "Uninstalling Ktps Growtopia Tools..."
+            sleep 2
+            echo "Uninstall complete!"
+            exit 0
+            ;;
+        2) main_loop ;;
+        *) main_loop ;;
+    esac
+}
+
+# Main loop function
+main_loop() {
+    while true; do
+        header
+        main_menu
+        footer
+        read -p "[*] Choose : " choice
+        
+        case $choice in
+            1) show_growtopia_tips ;;
+            2) wa_owner ;;
+            3) find_item ;;
+            4) about_menu ;;
+            5) uninstall_menu ;;
+            0) 
+                echo "Thank you for using Ktps Growtopia Tips!"
+                echo "Happy farming! 🌱"
+                exit 0 
+                ;;
+            *) 
+                echo "Invalid choice! Please try again."
+                sleep 2
+                ;;
+        esac
+    done
+}
+
+# Initialize the menu
+main_loop
